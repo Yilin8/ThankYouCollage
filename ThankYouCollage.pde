@@ -1,5 +1,5 @@
 //add modern art code here
-/* @pjs preload="thanks.png,food.png,heart1.png"; */
+//* @pjs preload="thanks.png,food.png,heart1.png"; */
 PImage thanks;
 PImage food;
 PImage heart1;
