@@ -1,5 +1,7 @@
 //add modern art code here
-PImage thanks;
+/* @pjs preload="thanks.png"; */
+/* @pjs preload="heart1.png"; */
+/* @pjs preload="heart1.png"; */PImage thanks;
 PImage food;
 PImage heart1;
 float x=300;
@@ -10,9 +12,6 @@ float cat=180;
 void setup() {
   size(800,500);
   frameRate(3);
-  * @pjs preload="thanks.png"; */
-  * @pjs preload="heart1.png"; */
-  * @pjs preload="heart1.png"; */
   image(thanks,0,0,800,500);
   image(food,230,300,280,150);
 }
