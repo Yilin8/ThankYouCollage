@@ -10,9 +10,9 @@ float cat=180;
 void setup() {
   size(800,500);
   frameRate(3);
-  thanks = loadImage ("thanks.jpg");
-  food = loadImage ("food.jpg");
-  heart1 = loadImage("heart1.jpg");
+  * @pjs preload="thanks.png"; */
+  * @pjs preload="heart1.png"; */
+  * @pjs preload="heart1.png"; */
   image(thanks,0,0,800,500);
   image(food,230,300,280,150);
 }
