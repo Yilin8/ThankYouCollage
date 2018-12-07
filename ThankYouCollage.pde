@@ -1,7 +1,6 @@
 //add modern art code here
-/* @pjs preload="thanks.png"; */
-/* @pjs preload="heart1.png"; */
-/* @pjs preload="heart1.png"; */PImage thanks;
+/* @pjs preload="thanks.png,food.png,heart1.png"; */
+PImage thanks;
 PImage food;
 PImage heart1;
 float x=300;
