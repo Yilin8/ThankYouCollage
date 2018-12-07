@@ -1,5 +1,4 @@
 //add modern art code here
-
 PImage thanks;
 PImage food;
 PImage heart1;
@@ -11,6 +10,9 @@ float cat=180;
 void setup() {
   size(800,500);
   frameRate(3);
+  thanks = loadImage ("thanks.jpg");
+  food = loadImage ("food.jpg");
+  heart1 = loadImage("heart1.jpg");
   image(thanks,0,0,800,500);
   image(food,230,300,280,150);
 }
@@ -74,13 +76,7 @@ void draw() {
  if(dog<0){
   cat= 50;
   
-}
-
-
  
- 
- 
- 
-  
+}   
  }
 }
